@@ -9,11 +9,27 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:300' rel='stylesheet'>
-    <title>Homepage</title>
+    <title>Contact!</title>
   </head>
   <body>
     <h1>Amit Dev</h1>
       <h2>Model|Texture|Shading</h2>
+      <div class="container" id="emailform">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="Subject" placeholder="Your subject..">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
     </body>
   </html>
-  
